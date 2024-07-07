@@ -1,8 +1,4 @@
-from typing import Tuple
-
-from appium.webdriver import WebElement
 from appium.webdriver.webdriver import WebDriver
-from selenium.common import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -30,14 +26,3 @@ def wait_and_click(driver: WebDriver, xpath: str, timeout: int = 10) -> None:
     WebDriverWait(driver, timeout).until(
         EC.invisibility_of_element_located((By.XPATH, xpath))
     )
-
-
-def find_element(
-    driver: WebDriver, locator: Tuple[str, str], timeout: int = 10
-) -> WebElement | None:
-    try:
-        return WebDriverWait(driver, timeout).until(
-            EC.presence_of_element_located(locator)
-        )
-    except TimeoutException:
-        return None
