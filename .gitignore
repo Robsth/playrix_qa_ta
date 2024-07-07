@@ -1,0 +1,170 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+tests/.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Appium logs
+appium.log
+
+# VS Code settings
+.vscode/
+
+# Local environment variables
+.env
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Images and screenshots
+/screenshots/
+*.png
+
+# Ignore UI elements folder
+/ui_elements/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore PyCharm project files
+*.iml
+
+# Ignore JetBrains project files
+*.ipr
+*.iws
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+.coverage
+coverage/
+
+# Ignore test reports
+nosetests.xml
+test-reports/
+
+# Ignore node_modules (if you are using Node.js)
+node_modules/
+
+# Ignore any secret files
+secrets/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore pyright type checking cache
+.pyright_cache/
+
+# Ignore any temporary files
+*.tmp
+*.temp
+*.swp
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore some of project entities
+screenshots/
